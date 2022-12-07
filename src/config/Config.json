@@ -5,10 +5,10 @@
   },
   "staging": {
     "clientPath": "http://localhost:3000",
-    "serverPath": "https://money-saver-server-production.up.railway.app/"
+    "serverPath": "https://money-saver-server-production.up.railway.app"
   },
   "production": {
     "clientPath": "http://localhost:3001/api",
-    "serverPath": "https://money-saver-server-production.up.railway.app/"
+    "serverPath": "https://money-saver-server-production.up.railway.app"
   }
 }
