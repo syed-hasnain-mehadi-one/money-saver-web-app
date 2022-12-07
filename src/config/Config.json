@@ -1,0 +1,14 @@
+{
+  "development": {
+    "clientPath": "http://localhost:3000",
+    "serverPath": "http://localhost:3001/api"
+  },
+  "staging": {
+    "clientPath": "http://localhost:3000",
+    "serverPath": "https://money-saver-server-production.up.railway.app/"
+  },
+  "production": {
+    "clientPath": "http://localhost:3001/api",
+    "serverPath": "https://money-saver-server-production.up.railway.app/"
+  }
+}
