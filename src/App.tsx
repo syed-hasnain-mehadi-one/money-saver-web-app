@@ -1,14 +1,22 @@
-import logo from "../src/assets/icons/logo.svg";
+import { ConfigProvider, Layout } from "antd";
 import "./App.css";
+import Login from "./components/login/Login";
 
 function App() {
   console.log("ENV", process.env.REACT_APP_ENV);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#00b96b",
+        },
+      }}
+    >
+      <Layout>
+      <h1>Hello</h1>
+    </Layout>
+    <Login/>
+    </ConfigProvider>
   );
 }
 
